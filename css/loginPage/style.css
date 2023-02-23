@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial; 
+    background-image: url(background_image.jpeg);
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.mainContainer {
+    width: 46%;
+    margin: auto;
+    height: 100vh;
+}
+
+.formTitle {
+    margin-top: 3.4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleLogo {
+    padding-right: 1rem;
+}
+
+.titleLogo img {
+    width: 45px;
+    height: 45px;
+}
+.titleName {
+    padding-left: 1rem;
+    letter-spacing: 0.5rem;
+}
+
+.formPara p {
+    text-align: center;
+    font-size: 16px;
+    margin-block-start: -0.3rem;
+
+}
+
+.langContainer {
+    text-align-last: right;
+    font-size: 12px;
+}
+
+.selectLang {
+    border: none;
+    background-color: white;
+    color: rgb(125, 121, 121);
+}
+
+
+.formHeadingsContainer{
+    margin-block-start: 1.5rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 25px;
+    font-weight: 400;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    font-style: italic;
+    color: rgba(0, 0, 0, 5);
+}
+
+.formContainer {
+    width: 20rem;
+    height: 22rem;
+    margin: 2rem auto;
+    padding: 1rem 2.5rem;
+    background-color: white;
+    color: black;
+}
+
+.subFormMainContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.subFormMainContainer a{
+    font-size: 12px;
+    color: #9DC3F0;
+}
+
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 3px;
+    padding: initial;
+    border: initial;
+}
+
+.register {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+button {
+    margin: 1.5rem 0 3rem 0;
+    background-color: #2d9fd9;
+    color: white;
+    padding: 6px 3px;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.formMainContainer p {
+    color: rgb(125, 121, 121);
+}
+.formMainContainer p a{
+    color: #5E9CE6;
+} 
+
+.footerContainer {
+    text-align: center;
+}
+
+.footerContainer h4 a{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .mainContainer{
+      width: 100%;
+    }
+    .formPara {
+        padding: 0rem 1rem;
+    }
+    body {
+        overflow: auto;
+    }
+}
